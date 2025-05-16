@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function() {
+      const study1 = "https://tinyurl.com/3zwkkszw";
+      const study2 = "https://erasmusuniversity.eu.qualtrics.com/jfe/form/SV_byCdwCOXSKAz2gm";
+      const redirectTo = Math.random() < 0.5 ? study1 : study2;
+      window.location.href = redirectTo;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you to the study...</p>
+</body>
+</html>
